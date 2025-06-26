@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.nb {    
+    background-color: #333446;
+    color: #EAEFEF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.brand {
+    font-family: 'kk';
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu a {
+    font-family: 'kk';
+    margin-left: 30px;
+    text-decoration: none;
+    color: #EAEFEF;
+    transition: 0.2s;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #EAEFEF;
+    color: #333446;
+    flex-wrap: wrap;
+}
+.teks h1 {
+    font-family: 'kk';
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.teks {
+    flex: 1;
+}
+.foto {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.foto img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px #21222d;
+}
+.footer {
+    background-color: #7F8CAA;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #333446;
+}
+.footer a {
+    color: #21222d;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+@font-face {
+    font-family: 'kk';
+    src: url('AlteHaasGroteskBold.ttf');
+}

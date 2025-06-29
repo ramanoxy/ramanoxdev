@@ -75,3 +75,18 @@ body {
     font-family: 'kk';
     src: url('AlteHaasGroteskBold.ttf');
 }
+@media (max-width: 768px) {
+    .nb {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .menu a {
+        margin: 0;
+    }
+}

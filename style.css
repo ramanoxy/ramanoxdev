@@ -38,7 +38,7 @@ body {
     flex-wrap: nowrap;
 }
 .hero-teks, hero-image {
-    min-width: 300px;
+    min-width: 800px;
     flex-shrink: 0;
 }
 .teks h1 {

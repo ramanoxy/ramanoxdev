@@ -77,12 +77,14 @@ body {
 }
 @media (max-width: 768px) {
     .nb {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         gap: 10px;
     }
     .menu {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         gap: 10px;
     }
@@ -90,3 +92,4 @@ body {
         margin: 0;
     }
 }
+

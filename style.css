@@ -37,7 +37,7 @@ body {
     overflow-x: auto;
     flex-wrap: nowrap;
 }
-.hero-teks, hero-foto {
+.hero-teks, hero-image {
     min-width: 300px;
     flex-shrink: 0;
 }

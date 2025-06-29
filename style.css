@@ -37,6 +37,10 @@ body {
     overflow-x: auto;
     flex-wrap: nowrap;
 }
+.hero-teks, hero-foto {
+    min-width: 300px;
+    flex-shrink: 0;
+}
 .teks h1 {
     font-family: 'kk';
     font-size: 70px;

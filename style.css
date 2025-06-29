@@ -28,6 +28,7 @@ body {
     transition: 0.2s;
 }
 .hero {
+    min-width: 600px;
     display: flex;
     align-items: center;
     justify-content: space-between;

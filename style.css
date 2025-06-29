@@ -34,7 +34,8 @@ body {
     padding: 15px 30px;
     background-color: #EAEFEF;
     color: #333446;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    flex-wrap: nowrap;
 }
 .teks h1 {
     font-family: 'kk';
@@ -75,21 +76,5 @@ body {
     font-family: 'kk';
     src: url('AlteHaasGroteskBold.ttf');
 }
-@media (max-width: 768px) {
-    .nb {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-    }
-    .menu {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-    }
-    .menu a {
-        margin: 0;
-    }
-}
+
 
